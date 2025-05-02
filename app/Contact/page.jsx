@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { IoMailUnreadOutline } from "react-icons/io5";
-import { PiTelegramLogo } from "react-icons/pi";
+//import { PiTelegramLogo } from "react-icons/pi";
 import { SlSocialInstagram } from "react-icons/sl";
 import { FiFacebook } from "react-icons/fi";
 import { RiSendPlaneLine } from "react-icons/ri";
