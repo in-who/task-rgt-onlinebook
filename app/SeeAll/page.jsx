@@ -8,7 +8,7 @@ import Pagination from "@/components/Pagination";
 import SearchBar from "@/components/SearchBar";
 
 const PAGE_SIZE = 10;
-
+/*
 export default function SeeAll() {
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -117,7 +117,7 @@ export default function SeeAll() {
     </div>
   );
 };
-
+*/
 export default function SeeAllPage() {
   //const [books, setBooks] = useState([]);
   const [search, setSearch] = useState("");
