@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+/*
 import Razorpay from "razorpay";
 import { nanoid } from 'nanoid'
 
@@ -6,13 +7,14 @@ const razorpay = new Razorpay({
   key_id: process.env.RAZORPAY_API_KEY,
   key_secret: process.env.RAZORPAY_KEY_SECRET,
 });
-
+*/
 export async function POST(req) {
   const { total } = await req.json();
   const payment_capture = 1;
   const amount = total;
   const currency = "INR";
 
+  /*
   try {
     const options = {
       amount: (amount * 100).toString(),
@@ -40,5 +42,13 @@ export async function POST(req) {
       { status: 400 }
       );
 
-  } 
+  } */
+
+      return NextResponse.json(
+        {
+          message: "결제 기능이 일시 중단되었습니다",
+          status: "SERVICE_UNAVAILABLE"
+        },
+        { status: 503 } // 서비스 이용 불가 상태 코드
+      );
 }
