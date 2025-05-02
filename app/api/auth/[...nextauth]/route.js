@@ -15,25 +15,21 @@ export const authOptions = {
 
         try {
           await connectMongoDB();
-          const user = await User.findOne({ email });
+          const user = await User.findOne({ email }).select("+password");
 
-          if (!user) {
-            return null;
-          }
+          if (!user) throw new Error("이메일 또는 비밀번호가 일치하지 않습니다");
 
-          const passwordsMatch = await bcrypt.compare(password, user.password);
+          const isValid = await bcrypt.compare(password, user.password);
+          if (!isValid) throw new Error("이메일 또는 비밀번호가 일치하지 않습니다");
 
-          if (!passwordsMatch) {
-            return null;
-          }
-
-          return user;
+          return { id: user._id.toString(), email: user.email };
         } catch (error) {
-          console.log("Error: ", error);
+          throw new Error(error.message || "로그인 실패");
         }
       },
     }),
   ],
+  secret: process.env.NEXTAUTH_SECRET,
   session: {
     strategy: "jwt",
   },
@@ -41,6 +37,20 @@ export const authOptions = {
   pages: {
     signIn: "/Login",
   },
+  callbacks: {
+    async jwt({ token, user }) {
+      if (user) {
+        token.id = user._id;
+        token.email = user.email;
+      }
+      return token;
+    },
+    async session({ session, token }) {
+      session.user.id = token.id;
+      session.user.email = token.email;
+      return session;
+    }
+  }
 };
 
 const handler = NextAuth(authOptions);

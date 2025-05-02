@@ -1,22 +1,21 @@
 // middleware.js (수정 후)
-import { withAuth } from "next-auth/middleware";
-import { NextResponse } from "next/server";
+import { NextResponse } from 'next/server';
+import { getToken } from 'next-auth/jwt';
 
-export default withAuth(
-  function middleware(req) {
-    // 추가 로직 필요 시 여기에 작성
+export async function middleware(req) {
+    const token = await getToken({ req });
+  
+    if (!token) {
+      if (req.nextUrl.pathname.startsWith('/Dashboard')) {
+        const url = req.nextUrl.clone();
+        url.pathname = '/auth/login';
+        return NextResponse.redirect(url);
+      }
+    }
+  
     return NextResponse.next();
-  },
-  {
-    callbacks: {
-      authorized: ({ token }) => !!token, // 인증 여부 확인
-    },
-    pages: {
-      signIn: "/auth/login", // 인증 실패 시 리디렉션 경로
-    },
   }
-);
-
-export const config = {
-  matcher: ["/Dashboard"], // 대소문자 구분 주의
-};
+  
+  export const config = {
+    matcher: ['/Dashboard/:path*'],
+  };
