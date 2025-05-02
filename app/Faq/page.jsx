@@ -1,111 +1,72 @@
 import React from 'react';
 export default function Faq() {
   return (
-    <div className="max-w-6xl w-full mx-auto px-4 py-6 justify-start md:px-8">
-      <h1 className="font-main text-xl my-4 font-semibold mr-auto md:text-2xl ">
-        {" "}
-        Frequently Asked Questions (FAQ) -
-      </h1>
-      <p className="font-main text-normal my-4  mr-auto md:text-lg">
-        1. What is My Bookstore
-        <br></br>Answer: My Bookstore is an online platform dedicated to
-        providing an extensive collection of books across genres and categories.
-        <br></br>
-        <br></br>
-        2. How do I search for books on My Bookstore
-        <br></br>Answer: You can search for books by using the search bar at the
-        top of the page. Simply enter the book title, author, or keywords
-        related to the book you're looking for.<br></br>
-        <br></br>
-        3. Can I filter search results
-        <br></br>Answer: Yes, you can refine your search results by using
-        filters such as genre, author, price range, and format.<br></br>
-        <br></br>
-        4. How do I place an order
-        <br></br>Answer: To place an order, click on the book you want to
-        purchase, then click "Add to Cart." You can review your cart and proceed
-        to checkout.<br></br>
-        <br></br>
-        5. What payment options are available
-        <br></br>Answer: We accept various payment methods, including
-        credit/debit cards, digital wallets, and more. All payments are
-        processed securely.<br></br>
-        <br></br>
-        6. Is my personal information safe? <br></br>
-        Answer:Yes, we prioritize your privacy and use advanced security
-        measures to protect your personal data. You can learn more in our
-        Privacy Policy.<br></br>
-        <br></br>
-        7. What is your shipping policy
-        <br></br>Answer: Our shipping policies may vary, but we aim to provide
-        fast and reliable delivery. You can find detailed shipping information
-        during the checkout process.<br></br>
-        <br></br>
-        8. Do you offer international shipping
-        <br></br>Answer: Yes, we offer international shipping to many countries.
-        Shipping fees and delivery times may vary by location.<br></br>
-        <br></br>
-        9. Can I return or exchange a book
-        <br></br>Answer: We have a hassle-free return and exchange policy. If
-        you're not satisfied with your purchase, please review our Returns &
-        Refunds Policy for instructions.<br></br>
-        <br></br>
-        10. Are there any discounts or promotions available
-        <br></br>Answer: We frequently run promotions and discounts. Keep an eye
-        on our homepage and subscribe to our newsletter to stay updated.
-        <br></br>
-        <br></br>
-        11. How do I track my order
-        <br></br>Answer: You can track your order by logging into your account
-        and accessing the "Order History" section. We'll also send you email
-        notifications with tracking details.<br></br>
-        <br></br>
-        12. Can I cancel an order after it's been placed
-        <br></br>Answer: You can cancel an order within a certain timeframe
-        after placing it. Please refer to our Cancellation Policy for details.
-        <br></br>
-        <br></br>
-        13. Are e-books available on your platform
-        <br></br>Answer: Yes, we offer a wide range of e-books. You can find
-        them in the "E-books" section.<br></br>
-        <br></br>
-        14. Can I contact customer support for assistance
-        <br></br>Answer: Absolutely! Our dedicated customer support team is
-        available via email and live chat to assist you with any inquiries or
-        issues.<br></br>
-        <br></br>
-        15. How can I provide feedback or report an issue
-        <br></br>Answer: We value your feedback. You can provide it through the
-        "Contact Us" page on our website. For technical issues, please report
-        them to our support team.<br></br>
-        <br></br>
-        16. Do you have a rewards or loyalty program
-        <br></br>Answer: Yes, we have a loyalty program that rewards frequent
-        customers with discounts, exclusive offers, and more. Details can be
-        found on our website.<br></br>
-        <br></br>
-        17. Are there any restrictions on the number of books I can purchase
-        <br></br>Answer: In general, there are no strict limitations on the
-        number of books you can buy. However, for bulk orders, please contact
-        our customer support for assistance.<br></br>
-        <br></br>
-        18. Do you sell textbooks or academic materials
-        <br></br>Answer: Yes, we offer a selection of textbooks and academic
-        resources for students and educators.<br></br>
-        <br></br>
-        19. Can I pre-order books that haven't been released yet?<br></br>
-        Yes, you can pre-order upcoming releases. We'll notify you when the book
-        is available, and your order will be shipped promptly.<br></br>
-        <br></br>
-        20. How can I stay updated on new book arrivals and promotions
-        <br></br>Answer: Subscribe to our newsletter, follow us on social media,
-        or check our website regularly for updates on new arrivals and exciting
-        promotions. If you have any more questions or need further assistance,
-        please don't hesitate to contact our friendly customer support team. We
-        are here to make your book-buying experience enjoyable and convenient!.
-        <br></br>
-        <br></br>
-      </p>
-    </div>
+<div className="max-w-6xl w-full mx-auto px-4 py-6 justify-start md:px-8">
+  <h1 className="font-main text-xl my-4 font-semibold mr-auto md:text-2xl">
+    자주 묻는 질문 (FAQ)
+  </h1>
+  <p className="font-main text-normal my-4 mr-auto md:text-lg">
+    1. My Bookstore는 무엇인가요?<br></br>
+    답변: My Bookstore는 다양한 장르와 카테고리의 도서를 제공하는 온라인 플랫폼입니다.<br></br>
+    <br></br>
+    2. My Bookstore에서 책을 어떻게 검색하나요?<br></br>
+    답변: 페이지 상단의 검색창을 사용해 책 제목, 작가 또는 관련 키워드로 검색할 수 있습니다.<br></br>
+    <br></br>
+    3. 검색 결과를 필터링할 수 있나요?<br></br>
+    답변: 장르, 작가, 가격 범위, 형식 등의 필터를 사용해 검색 결과를 정제할 수 있습니다.<br></br>
+    <br></br>
+    4. 주문은 어떻게 하나요?<br></br>
+    답변: 원하는 책을 클릭한 후 "장바구니에 추가"를 누르세요. 장바구니를 확인하고 결제를 진행하면 됩니다.<br></br>
+    <br></br>
+    5. 어떤 결제 방법을 지원하나요?<br></br>
+    답변: 신용/직불카드, 디지털 지갑 등 다양한 결제 방법을 안전하게 처리합니다.<br></br>
+    <br></br>
+    6. 개인 정보는 안전한가요?<br></br>
+    답변: 귀하의 개인 정보를 보호하기 위해 최첨단 보안 시스템을 사용합니다. 자세한 내용은 개인정보 처리방침을 참조하세요.<br></br>
+    <br></br>
+    7. 배송 정책은 어떻게 되나요?<br></br>
+    답변: 빠르고 신뢰할 수 있는 배송을 목표로 하며, 결제 과정에서 상세 정보를 확인할 수 있습니다.<br></br>
+    <br></br>
+    8. 해외 배송이 가능한가요?<br></br>
+    답변: 많은 국가로 해외 배송이 가능하며, 배송비와 소요 시간은 지역에 따라 다릅니다.<br></br>
+    <br></br>
+    9. 반품이나 교환이 가능한가요?<br></br>
+    답변: 간편한 반품 및 교환 정책이 있습니다. 구매에 만족하지 못한 경우 반품 및 환불 정책을 참조하세요.<br></br>
+    <br></br>
+    10. 할인이나 프로모션은 있나요?<br></br>
+    답변: 자주 프로모션과 할인 이벤트를 진행합니다. 홈페이지와 뉴스레터를 확인해 주세요.<br></br>
+    <br></br>
+    11. 주문 추적은 어떻게 하나요?<br></br>
+    답변: 계정에 로그인해 "주문 내역"에서 확인하거나 이메일 알림을 통해 추적 정보를 받을 수 있습니다.<br></br>
+    <br></br>
+    12. 주문 후 취소할 수 있나요?<br></br>
+    답변: 주문 후 일정 기간 내에 취소할 수 있습니다. 취소 정책을 참조하세요.<br></br>
+    <br></br>
+    13. 전자책도 판매하나요?<br></br>
+    답변: 넓은 범위의 전자책을 "전자책" 섹션에서 제공합니다.<br></br>
+    <br></br>
+    14. 고객 지원팀에 문의할 수 있나요?<br></br>
+    답변: 이메일과 실시간 채팅을 통해 고객 지원팀에 문의할 수 있습니다.<br></br>
+    <br></br>
+    15. 피드백이나 문제를 어떻게 제보하나요?<br></br>
+    답변: "문의하기" 페이지를 통해 피드백을 제공하거나 기술적 문제는 지원팀에 보고할 수 있습니다.<br></br>
+    <br></br>
+    16. 리워드 프로그램이 있나요?<br></br>
+    답변: 자주 구매하는 고객을 위한 할인 및 특별 혜택 프로그램이 있습니다.<br></br>
+    <br></br>
+    17. 구매 수량 제한이 있나요?<br></br>
+    답변: 일반적으로 제한은 없으나 대량 주문 시 고객 지원팀에 문의하세요.<br></br>
+    <br></br>
+    18. 교과서나 학술 자료를 판매하나요?<br></br>
+    답변: 학생과 교육자를 위한 교과서 및 학술 자료를 제공합니다.<br></br>
+    <br></br>
+    19. 출시 전 책을 미리 주문할 수 있나요?<br></br>
+    답변: 출시 예정작을 미리 주문할 수 있으며, 출시 시 알림을 보내드립니다.<br></br>
+    <br></br>
+    20. 새 도서와 프로모션 소식을 어떻게 받나요?<br></br>
+    답변: 뉴스레터 구독, 소셜 미디어 팔로우 또는 웹사이트 정기 확인을 통해 업데이트를 받으세요. 추가 질문이 있으면 고객 지원팀에 문의해 주세요. 즐거운 책 구매 경험을 제공하기 위해 최선을 다하겠습니다!<br></br>
+    <br></br>
+  </p>
+</div>
   );
 }

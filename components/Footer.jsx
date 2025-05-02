@@ -67,25 +67,25 @@ export default function Footer() {
           <p className="mb-3 mr-4 text-sm font-MyFont opacity-80">
             Email:
             <Link
-              href="mailto:mayankkush0842@gmail.com"
+              href="mailto:devops.jih@gmail.com"
               className="text-link mt-1 block font-MyFont underline decoration-dashed underline-offset-2 hover:decoration-solid "
             >
-              mayankkush0842@gmail <br className='flex md:hidden'></br>.com
+              devops.jih@gmail <br className='flex md:hidden'></br>.com
             </Link>
           </p>
           <p className="mb-3 text-sm font-MyFont">
             Phone:
             <Link
-              href="tel:+919023373685"
+              href="tel:+01068087902"
               className="text-link mt-1 block font-MyFont underline decoration-dashed underline-offset-2 hover:decoration-solid "
             >
-              +919023373686
+              +01068087902
             </Link>
           </p>
           <p className="mb-3 text-sm font-MyFont">
             Address:
             <span className="mt-1 block font-MyFont">
-              Ahmedabad, Gujarat, INDIA
+              중랑구, 서울, 대한민국
             </span>
           </p>
         </div>
@@ -93,19 +93,19 @@ export default function Footer() {
         <div className="social-group col-span-2  md:row-span-1 md:self-center">
           <div className="flex flex-row gap-x-8 mt-3 justify-center md:justify-start opacity-80 !stroke-current stroke-2 ">
             {" "}
-            <Link href="https://www.facebook.com/">
+            <Link href="https://www.facebook.com/inhoo.jung/">
               {" "}
               <FiFacebook className="icon-bottom " />{" "}
             </Link>
-            <Link href="https://www.instagram.com/_mayank._k___/">
+            <Link href="https://www.instagram.com/inhoojung/">
               {" "}
               <SlSocialInstagram className="icon-bottom" />{" "}
             </Link>
-            <Link href="https://t.me/+919023373686">
+            <Link href="https://t.me/+01068087902">
               {" "}
               <PiTelegramLogo className="icon-bottom" />{" "}
             </Link>
-            <Link href="mailto:mayankkush0842@gmail.com">
+            <Link href="mailto:devops.jih@gmail.com">
               {" "}
               <IoMailUnreadOutline className="icon-bottom" />
             </Link>
@@ -122,10 +122,10 @@ export default function Footer() {
             Crafted by
             <Link
               className="underline decoration-dashed underline-offset-2 hover:decoration-solid"
-              href="https://lordmashh.github.io/Portfolio_mayank/"
+              href="https://github.com/in-who/task-rgt-onlinebook"
             >
               {" "}
-              Mayank kushwaha
+              inhoo jung
             </Link>
             .
           </span>

@@ -1,83 +1,53 @@
 import React from 'react';
 export default function Policy() {
   return (
-    <div className="max-w-6xl w-full mx-auto px-4 py-6 justify-start md:px-8">
-      <h1 className="font-main text-xl my-4 font-semibold mr-auto md:text-2xl ">
-        {" "}
-        Privacy Policy for My-Bookstore -
-      </h1>
-      <p className="font-main text-normal my-4  mr-auto md:text-lg">
-        1. Introduction Welcome to [Your Bookstore Website].<br></br>
-        We value your privacy and are committed to protecting your personal
-        information.<br></br>
-        This Privacy Policy is designed to explain how we collect, use,
-        disclose, and safeguard your data when you visit our website, interact
-        with our services, or make purchases through our platform.<br></br>
-        <br></br>
-        2. Information We Collect We may collect the following types of
-        information: Personal Information: When you register an account or make
-        a purchase, we may collect your name, email address, shipping address,
-        and payment details.<br></br>
-        Browsing Information: We may collect data about your interaction with
-        our website, including your IP address, browser type, device
-        information, and cookies (see our Cookie Policy for details).<br></br>
-        Communication: We may store records of your communications with our
-        customer support team for quality assurance and support purposes.
-        <br></br>
-        <br></br>
-        3. How We Use Your Information We use your information for the following
-        purposes: Order Processing: To process and fulfill your orders,
-        including shipping, payment processing, and order confirmation.<br></br>
-        Personalization: To enhance your shopping experience by recommending
-        products based on your browsing and purchase history.<br></br>
-        Communication: To send you transactional updates, order notifications,
-        and marketing communications with your consent.<br></br>
-        Analytics: To analyze website performance, user behavior, and trends,
-        allowing us to improve our services.<br></br>
-        <br></br>
-        4. Information Sharing We may share your information with: Service
-        Providers: Trusted third-party service providers who assist us in
-        running our business, such as payment processors, shipping companies,
-        and marketing agencies.<br></br>
-        Legal Requirements: When required by law, we may disclose your
-        information to comply with legal obligations, protect our rights, or
-        respond to legal requests.<br></br>
-        <br></br>
-        5. Your Choices and Rights You have the right to: Access: Request access
-        to your personal data we hold.<br></br>
-        Rectify: Correct any inaccurate or incomplete data.<br></br>
-        Delete: Request the deletion of your data under certain circumstances.
-        <br></br>
-        Object: Object to the processing of your data for marketing purposes.
-        <br></br>
-        Withdraw Consent: If you provided consent for certain processing
-        activities, you can withdraw it at any time.<br></br>
-        <br></br>
-        6. Security Measures We employ industry-standard security measures to
-        protect your data.<br></br>
-        However, no method of transmission over the internet or electronic
-        storage is 100% secure.<br></br>
-        While we strive to protect your data, we cannot guarantee absolute
-        security.<br></br>
-        <br></br>
-        7. International Data Transfers Your data may be transferred and
-        processed in countries outside of your jurisdiction.<br></br>
-        We will take appropriate steps to ensure your data remains protected,
-        consistent with applicable data protection laws.<br></br>
-        8. Children's Privacy Our services are not intended for individuals
-        under the age of 16.<br></br>
-        We do not knowingly collect or maintain personal information from
-        children.<br></br>
-        <br></br>
-        9. Changes to this Policy We reserve the right to update this Privacy
-        Policy periodically.<br></br>
-        The latest version will be posted on our website with the effective
-        date.<br></br>
-        <br></br>
-        10. Contact Us If you have questions or concerns about this Privacy
-        Policy, please contact us through the information provided below.
-        <br></br>
-      </p>
-    </div>
+<div className="max-w-6xl w-full mx-auto px-4 py-6 justify-start md:px-8">
+  <h1 className="font-main text-xl my-4 font-semibold mr-auto md:text-2xl">
+    My-Bookstore 개인정보 처리방침
+  </h1>
+  <p className="font-main text-normal my-4 mr-auto md:text-lg">
+    1. 소개<br></br>
+    [귀하의 서점 웹사이트]에 오신 것을 환영합니다.<br></br>
+    당사는 귀하의 개인정보 보호를 최우선으로 하며, 본 개인정보 처리방침은 웹사이트 이용, 서비스 상호작용, 플랫폼을 통한 구매 시 수집된 데이터의 처리 방식을 명시합니다.<br></br>
+    <br></br>
+    2. 수집하는 정보<br></br>
+    당사는 다음 유형의 정보를 수집할 수 있습니다:<br></br>
+    - 개인정보: 계정 등록 또는 구매 시 이름, 이메일 주소, 배송지 주소, 결제 정보<br></br>
+    - 브라우징 정보: IP 주소, 브라우저 유형, 장치 정보, 쿠키 (자세한 내용은 쿠키 정책 참조)<br></br>
+    - 커뮤니케이션: 고객 지원팀과의 상담 기록 (품질 관리 및 지원 목적)<br></br>
+    <br></br>
+    3. 정보 사용 목적<br></br>
+    - 주문 처리: 배송, 결제 처리, 주문 확인 포함<br></br>
+    - 맞춤화: 구매 및 검색 기록 기반 상품 추천<br></br>
+    - 커뮤니케이션: 거래 알림, 주문 업데이트, 동의 시 마케팅 정보 전송<br></br>
+    - 분석: 웹사이트 성능 및 사용자 행동 분석을 통한 서비스 개선<br></br>
+    <br></br>
+    4. 정보 공유<br></br>
+    - 서비스 제공업체: 결제 처리사, 배송사, 마케팅 에이전시 등 신뢰할 수 있는 제3자<br></br>
+    - 법적 요구사항: 법적 의무 이행, 권리 보호, 법적 요청 대응 시<br></br>
+    <br></br>
+    5. 귀하의 권리<br></br>
+    - 접근: 보유 중인 개인정보 열람 요청<br></br>
+    - 정정: 부정확하거나 불완전한 데이터 수정<br></br>
+    - 삭제: 특정 조건 하에서 데이터 삭제 요청<br></br>
+    - 이의 제기: 마케팅 목적 데이터 처리에 대한 반대<br></br>
+    - 동의 철회: 처리 동의 시 언제든 철회 가능<br></br>
+    <br></br>
+    6. 보안 조치<br></br>
+    산업 표준 보안 조치를 적용하나, 인터넷 전송 또는 전자 저장 방식의 100% 안전성을 보장하지 않습니다.<br></br>
+    <br></br>
+    7. 국제 데이터 이전<br></br>
+    관할권 외 국가로 데이터 전송 및 처리 가능하며, 관련 데이터 보호 법규에 따라 보호 조치를 취합니다.<br></br>
+    <br></br>
+    8. 아동 개인정보<br></br>
+    16세 미만 이용자 대상 서비스가 아니며, 고의적 아동 정보 수집을 하지 않습니다.<br></br>
+    <br></br>
+    9. 정책 변경<br></br>
+    주기적 개정 권한 보유하며, 최신 버전은 웹사이트에 게시됩니다.<br></br>
+    <br></br>
+    10. 문의<br></br>
+    본 정책 관련 문의 시 하단 제공 정보를 통해 연락주시기 바랍니다.<br></br>
+  </p>
+</div>
   );
 }

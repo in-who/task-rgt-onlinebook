@@ -41,23 +41,23 @@ export default function Main() {
            className="icon-bottom ml-3 mt-2 scale-110  bounce" />
         </p>
         <div className="flex flex-row gap-x-8 mt-6 opacity-80 !stroke-current stroke-2 ">
-          {" "}
-          <Link href="https://www.facebook.com/">
-            {" "}
-            <FiFacebook className="icon-bottom " />{" "}
-          </Link>
-          <Link href="https://www.instagram.com/_mayank._k___/">
-            {" "}
-            <SlSocialInstagram className="icon-bottom" />{" "}
-          </Link>
-          <Link href="https://t.me/+919023373686">
-            {" "}
-            <PiTelegramLogo className="icon-bottom" />{" "}
-          </Link>
-          <Link href="mailto:mayankkush0842@gmail.com">
-            {" "}
-            <IoMailUnreadOutline className="icon-bottom" />
-          </Link>
+        {" "}
+            <Link href="https://www.facebook.com/inhoo.jung/">
+              {" "}
+              <FiFacebook className="icon-bottom " />{" "}
+            </Link>
+            <Link href="https://www.instagram.com/inhoojung/">
+              {" "}
+              <SlSocialInstagram className="icon-bottom" />{" "}
+            </Link>
+            <Link href="https://t.me/+01068087902">
+              {" "}
+              <PiTelegramLogo className="icon-bottom" />{" "}
+            </Link>
+            <Link href="mailto:devops.jih@gmail.com">
+              {" "}
+              <IoMailUnreadOutline className="icon-bottom" />
+            </Link>
         </div>
         <div className="mt-12 flex gap-2 font-MyFont divide-x divide-textgray md:w-[125%] lg:w-auto">
           <div className="">Fast Delivery</div>

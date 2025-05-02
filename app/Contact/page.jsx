@@ -32,19 +32,19 @@ export default function Contact() {
         <div className="md:flex pb-8 md:pb-0 md:pr-10 xl:pr-20 hidden font-MyFont">
           <div className="flex flex-row gap-x-8 mt-3 justify-center md:justify-start opacity-80 !stroke-current stroke-2 ">
             {" "}
-            <Link href="https://www.facebook.com/">
+            <Link href="https://www.facebook.com/inhoo.jung/">
               {" "}
               <FiFacebook href="" className="icon-bottom " />{" "}
             </Link>
-            <Link href="https://www.instagram.com/_mayank._k___/">
+            <Link href="https://www.instagram.com/inhoojung/">
               {" "}
               <SlSocialInstagram className="icon-bottom" />{" "}
             </Link>
-            <Link href="https://t.me/+919023373686">
+            <Link href="https://t.me/+01068087902">
               {" "}
               <PiTelegramLogo className="icon-bottom" />{" "}
             </Link>
-            <Link href="mailto:mayankkush0842@gmail.com">
+            <Link href="mailto:devops.jih@gmail.com">
               {" "}
               <IoMailUnreadOutline className="icon-bottom" />
             </Link>

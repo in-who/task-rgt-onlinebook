@@ -1,64 +1,72 @@
 import React from 'react';
 export default function Terms() {
   return (
-    <div className="max-w-6xl w-full mx-auto px-4 py-6 justify-start md:px-8">
-      <h1 className="font-main text-xl my-4 font-semibold mr-auto md:text-2xl ">
-        {" "}
-        Terms and Conditions of Use -
-      </h1>
-      <p className="font-main text-normal my-4  mr-auto md:text-lg">
-        Welcome to My-Bookstore.<br></br> By accessing and using our website,
-        you agree to comply with and be bound by these Terms and Conditions.
-        <br></br> If you do not agree with these terms, please refrain from
-        using our services.<br></br> <br></br>
-        1. User Eligibility You must be at least 18 years old to use our services.<br></br> By using our website, you represent and warrant that you are
-        of legal age and have the capacity to enter into this agreement.
-        <br></br> <br></br>
-        2.Account Registration To access certain features and make purchases,
-        you may be required to create an account.<br></br> You are responsible
-        for maintaining the confidentiality of your account credentials and for
-        all activities conducted under your account.<br></br> <br></br>
-        3. Product Information We make every effort to provide accurate and
-        up-to-date information about our products.<br></br> However, we do not
-        warrant the accuracy, completeness, or reliability of product
-        descriptions, prices, or availability.<br></br> <br></br>
-        4. Ordering and Payment By placing an order, you agree to pay the
-        specified price, including any applicable taxes and shipping fees.
-        <br></br> Payment processing is handled securely through trusted
-        third-party providers.<br></br> <br></br>
-        5. Shipping and Delivery Shipping times and methods may vary.<br></br>{" "}
-        We aim to deliver orders promptly, but we do not guarantee specific
-        delivery dates.<br></br> Risk of loss or damage to products transfers to
-        you upon delivery.<br></br> <br></br>
-        6. Returns and Refunds Please review our Returns & Refunds Policy for
-        information on returning products and requesting refunds.<br></br> <br></br>
-        7. Intellectual Property All content, including text, images, logos, and
-        trademarks on our website, is protected by intellectual property rights.<br></br>
-        You may not use, reproduce, or distribute our content without our
-        explicit permission.<br></br> <br></br>
-        8. User Conduct You agree not to: Use our website for unlawful purposes
-        or in violation of these Terms.<br></br> Transmit viruses or malicious
-        code that may harm our website or users.<br></br> Interfere with the
-        functionality or security of our website.<br></br> Engage in any
-        activity that could damage our reputation.<br></br> <br></br>
-        9.Privacy Your use of our website is subject to our Privacy Policy,
-        which explains how we collect, use, and protect your personal information.<br></br> <br></br> 10.Termination We reserve the right to terminate or suspend
-        your account and access to our services at our discretion, without prior
-        notice, for violations of these Terms.<br></br> <br></br> 11. Limitation
-        of Liability We are not liable for any indirect, incidental, special, or
-        consequential damages arising from your use of our website or product s.
-        <br></br> Our liability is limited to the purchase price of the products.<br></br> <br></br>12. Indemnification You agree to indemnify and hold
-        us harmless from any claims, damages, or losses arising from your use of
-        our website or violation of these Terms.<br></br> <br></br>13. Governing
-        Law These Terms and Conditions are governed by the laws of [Your
-        Jurisdiction].<br></br> Any disputes will be resolved in the appropriate
-        courts of [Your Jurisdiction].<br></br> <br></br> 14. Changes to Terms
-        We may modify these Terms and Conditions at any time.<br></br> The
-        latest version will be posted on our website, and your continued use
-        constitutes acceptance of the updated terms.<br></br> <br></br> 15.
-        Contact Us If you have questions or concerns about these Terms and
-        Conditions, please contact us through the information provided below
-      </p>
-    </div>
+<div className="max-w-6xl w-full mx-auto px-4 py-6 justify-start md:px-8">
+  <h1 className="font-main text-xl my-4 font-semibold mr-auto md:text-2xl">
+    My-Bookstore 이용 약관
+  </h1>
+  <p className="font-main text-normal my-4 mr-auto md:text-lg">
+    My-Bookstore에 오신 것을 환영합니다.<br></br>
+    본 웹사이트 이용 시 아래 이용 약관에 동의하는 것으로 간주됩니다.<br></br>
+    약관에 동의하지 않을 경우 서비스 이용을 중단해 주시기 바랍니다.<br></br>
+    <br></br>
+    1. 이용 자격<br></br>
+    본 서비스는 만 18세 이상만 이용 가능합니다.<br></br>
+    웹사이트 이용 시 귀하가 법적 성년자이며 본 계약 체결 능력이 있음을 진술 및 보증합니다.<br></br>
+    <br></br>
+    2. 계정 등록<br></br>
+    특정 기능 및 구매 이용을 위해 계정 생성이 필요할 수 있습니다.<br></br>
+    계정 정보의 기밀 유지 및 계정 사용 시 발생하는 모든 활동에 대한 책임이 귀하에게 있습니다.<br></br>
+    <br></br>
+    3. 상품 정보<br></br>
+    정확하고 최신의 상품 정보 제공을 위해 노력하나, 상품 설명, 가격, 재고 상태의 정확성/완전성/신뢰성을 보장하지 않습니다.<br></br>
+    <br></br>
+    4. 주문 및 결제<br></br>
+    주문 시 명시된 가격(세금 및 배송비 포함) 지불에 동의합니다.<br></br>
+    결제는 신뢰할 수 있는 제3자 결제 처리업체를 통해 안전하게 처리됩니다.<br></br>
+    <br></br>
+    5. 배송<br></br>
+    배송 기간 및 방법은 경우에 따라 다르며, 특정 배송일을 보장하지 않습니다.<br></br>
+    상품 인도 시점부터 분실/파손 위험은 귀하에게 이전됩니다.<br></br>
+    <br></br>
+    6. 반품 및 환불<br></br>
+    상품 반품 및 환불 정책은 별도의 "반품 및 환불 정책"을 참조해 주시기 바랍니다.<br></br>
+    <br></br>
+    7. 지적 재산권<br></br>
+    웹사이트의 모든 콘텐츠(텍스트, 이미지, 로고, 상표)는 지적 재산권으로 보호됩니다.<br></br>
+    당사의 명시적 허락 없이 사용/복제/배포를 금지합니다.<br></br>
+    <br></br>
+    8. 이용자 행동 규칙<br></br>
+    다음 행위를 금지합니다:<br></br>
+    - 웹사이트를 불법 목적으로 사용하거나 본 약관 위반 시<br></br>
+    - 웹사이트 또는 사용자에게 해를 끼칠 수 있는 바이러스/악성 코드 전송<br></br>
+    - 웹사이트 기능/보안 방해<br></br>
+    - 당사 평판을 훼손할 수 있는 모든 행위<br></br>
+    <br></br>
+    9. 개인정보 보호<br></br>
+    웹사이트 이용 시 당사 "개인정보 처리방침"이 적용되며, 이는 개인정보 수집/사용/보호 방식을 설명합니다.<br></br>
+    <br></br>
+    10. 계약 해지<br></br>
+    약관 위반 시 사전 통보 없이 계정 및 서비스 이용을 제한할 수 있는 권리를 보유합니다.<br></br>
+    <br></br>
+    11. 책임 제한<br></br>
+    당사는 웹사이트 또는 상품 사용으로 인한 간접/부수적/특별/결과적 손해에 대해 책임을 지지 않습니다.<br></br>
+    당사의 책임은 상품 구매 가격 범위로 제한됩니다.<br></br>
+    <br></br>
+    12. 면책 조항<br></br>
+    웹사이트 이용 또는 약관 위반으로 발생한 모든 청구/손해/손실에 대해 당사를 면책하는 데 동의합니다.<br></br>
+    <br></br>
+    13. 준거법<br></br>
+    본 약관은 [귀하의 관할권] 법률에 의해 규율됩니다.<br></br>
+    분쟁 발생 시 [귀하의 관할권] 내 관할 법원에서 해결됩니다.<br></br>
+    <br></br>
+    14. 약관 변경<br></br>
+    당사는 본 약관을 수시로 수정할 수 있으며, 최신 버전은 웹사이트에 게시됩니다.<br></br>
+    변경 후 계속된 이용은 수정된 약관에 대한 동의로 간주됩니다.<br></br>
+    <br></br>
+    15. 문의<br></br>
+    본 약관 관련 문의 사항은 하단 제공 정보를 통해 연락주시기 바랍니다.
+  </p>
+</div>
   );
 }
