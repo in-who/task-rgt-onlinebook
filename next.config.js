@@ -4,11 +4,15 @@ const nextConfig = {
     appDir: true,
     serverActions: true,
     serverComponentsExternalPackages: ["mongoose"],
+    fontLoaders: [
+      { loader: '@next/font/google', options: { subsets: ['latin'] } }
+    ],
   },
   images: {
     unoptimized: true,
     domains: ['lh3.googleusercontent.com'],
-    domains: ['books.google.com']
+    domains: ['books.google.com'],
+    domains: ['fonts.gstatic.com']
   },
   env: {
     Base_URL: process.env.Base_URL,
