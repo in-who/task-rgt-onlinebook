@@ -1,0 +1,22 @@
+//jsconfig.json
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "types": ["jest", "@testing-library/jest-dom"],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "app/**/*",
+    "components/**/*",
+    "__test__/**/*",
+    "jest.setup.js"
+  ]
+}
