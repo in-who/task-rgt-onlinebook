@@ -1,13 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Card from "@/components/Card";
-import { useSearchParams, useRouter } from "next/navigation";
-import { MutatingDots } from "react-loader-spinner";
+//import Card from "@/components/Card";
+//import { useSearchParams, useRouter } from "next/navigation";
+//import { MutatingDots } from "react-loader-spinner";
 import BookCard from "@/components/BookCard";
 import Pagination from "@/components/Pagination";
 import SearchBar from "@/components/SearchBar";
 
-const PAGE_SIZE = 10;
+//const PAGE_SIZE = 10;
 /*
 export default function SeeAll() {
   const searchParams = useSearchParams();
@@ -119,15 +119,24 @@ export default function SeeAll() {
 };
 */
 export default function SeeAllPage() {
-  //const [books, setBooks] = useState([]);
+  const [books, setBooks] = useState([]);
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
   const totalPages = 5; // 예시
   //const [isLoading, setIsLoading] = useState(true);
 
+  useEffect(() => {
+    async function fetchBooks() {
+      const res = await fetch(`/api/books?page=${page}&search=${search}`);
+      const data = await res.json();
+      setBooks(data.books); 
+    }
+    fetchBooks();
+  }, [page, search]);
+
   return (
     <main>
-      {isLoading && <div>로딩 중...</div>} {/* TODO :: 실제 로딩 UI */}
+      { /*isLoading &&*/ <div>로딩 중...</div>} {/* TODO :: 실제 로딩 UI */}
     <div>
       <SearchBar value={search} onChange={(e) => setSearch(e.target.value)} />
       <div className="grid grid-cols-3 gap-4 mt-4">

@@ -47,7 +47,7 @@ export async function POST(req) {
       return NextResponse.json(
         {
           message: "결제 기능이 일시 중단되었습니다",
-          status: "SERVICE_UNAVAILABLE"
+          status: "SERVICE_UNAVAILABLE"+total
         },
         { status: 503 } // 서비스 이용 불가 상태 코드
       );

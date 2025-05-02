@@ -104,12 +104,7 @@ export default function Checkout() {
           body: JSON.stringify(paymentData),
         });
 
-        const queryString = `name=${name}&email=${email}&phone=${phone}&address=${address}&payment=${payment}
-      \&total=${total}&razorpay_payment_id=${
-          response.razorpay_payment_id
-        }&razorpay_order_id=${response.razorpay_order_id}&razorpay_signature=${
-          response.razorpay_signature
-        }`;
+        const queryString = `name=${name}&email=${email}&phone=${phone}&address=${address}&payment=${payment}&total=${total}&razorpay_payment_id=${response.razorpay_payment_id}&razorpay_order_id=${response.razorpay_order_id}&razorpay_signature=${response.razorpay_signature}`;
 
         const verifyResult = await verifyResponse.json();
         console.log("response verify==", verifyResult);

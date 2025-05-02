@@ -66,14 +66,14 @@ export async function GET(req) {
     // const wishlist = await wishlist.findOne({ user: req.userId }).populate("items");
     if (!wishlist) {
       return NextResponse.json(
-        { message: "wishlist not found for the current user.",error: error.message },
+        { message: "wishlist not found for the current user." },
         { status: 404 }
       );
     }
     return NextResponse.json(wishlist.items, { status: 200 });
   } catch (error) {
     return NextResponse.json(
-      { message: "An error occurred while fetching the wishlist data.",error: error.message},
+      { message: "An error occurred while fetching the wishlist data."},
       { status: 500 }
     );
   }
