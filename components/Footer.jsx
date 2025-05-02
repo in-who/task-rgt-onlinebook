@@ -101,13 +101,9 @@ export default function Footer() {
               {" "}
               <SlSocialInstagram className="icon-bottom" />{" "}
             </Link>
-            {/* <Link href="https://t.me/+01068087902">
-              {" "}
-              <PiTelegramLogo className="icon-bottom" />{" "}
-            </Link> */}
             <Link href="mailto:devops.jih@gmail.com">
               {" "}
-              <IoMailUnreadOutline className="icon-bottom" />
+              <IoMailUnreadOutline className="icon-bottom" />{" "}
             </Link>
           </div>
         </div>
