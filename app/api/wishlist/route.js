@@ -62,7 +62,7 @@ export async function GET(req) {
    const userId = decodedToken.userId;
 
    // Continue with the rest of your code, using userId as needed
-   const wishlist = await Wishlist.findOne({ user: userId }).populate("items");;
+   const wishlist = await Wishlist.findOne({ user: userId }).populate("items");
     // const wishlist = await wishlist.findOne({ user: req.userId }).populate("items");
     if (!wishlist) {
       return NextResponse.json(

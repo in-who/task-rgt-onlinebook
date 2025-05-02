@@ -4,12 +4,12 @@ import crypto from "crypto";
 import Payment from "@/models/Payment";
 import { connectMongoDB } from "@/lib/mongodb";
 import jwt from "jsonwebtoken";
-
+/*
 const instance = new Razorpay({
   key_id: process.env.RAZORPAY_API_KEY,
   key_secret: process.env.RAZORPAY_KEY_SECRET,
 });
-
+*/
 export async function POST(req) {
   try {
     const {

@@ -80,8 +80,8 @@ export default function UserInfo() {
       ["Total Amount", payment.total],
       ["Payment ID", payment.razorpay_payment_id],
       ["Payment Order", payment.razorpay_order_id],
-      ["Razorpay Signature", payment.razorpay_signature],
-      ["", ,],
+      ["Razorpay Signature", payment.razorpay_signature]//,
+      //["", ,],
     ];
 
     // Add the table to the PDF

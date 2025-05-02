@@ -10,9 +10,9 @@ const razorpay = new Razorpay({
 */
 export async function POST(req) {
   const { total } = await req.json();
-  const payment_capture = 1;
-  const amount = total;
-  const currency = "INR";
+  //const payment_capture = 1;
+  //const amount = total;
+  //const currency = "INR";
 
   /*
   try {

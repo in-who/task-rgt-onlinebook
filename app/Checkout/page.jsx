@@ -47,7 +47,7 @@ export default function Checkout() {
         setName("");
 
         toast.success("Payment Done successfully");
-        console.log(totalpricevalue);
+        //console.log(totalpricevalue);
         router.push("/");
       } else {
         console.log("data saving failed.");

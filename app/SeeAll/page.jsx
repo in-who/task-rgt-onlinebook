@@ -9,12 +9,12 @@ import SearchBar from "@/components/SearchBar";
 
 const PAGE_SIZE = 10;
 
-const SeeAll = () => {
+export default function SeeAll() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
   const heading = searchParams.get("heading") || "";
-  const order = searchParams.get("order") || ""; // 현재 백엔드에서 정렬 미구현 시 무시 가능
+  //const order = searchParams.get("order") || ""; // 현재 백엔드에서 정렬 미구현 시 무시 가능
   const title = searchParams.get("title") || "Book List";
   const pageParam = searchParams.get("page");
   const initialPage = pageParam ? parseInt(pageParam) : 1;
@@ -119,11 +119,11 @@ const SeeAll = () => {
 };
 
 export default function SeeAllPage() {
-  const [books, setBooks] = useState([]);
+  //const [books, setBooks] = useState([]);
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
   const totalPages = 5; // 예시
-  const [isLoading, setIsLoading] = useState(true);
+  //const [isLoading, setIsLoading] = useState(true);
 
   return (
     <main>

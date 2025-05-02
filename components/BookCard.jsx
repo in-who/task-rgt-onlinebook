@@ -1,6 +1,8 @@
 // components/BookCard.jsx
 "use client";
 
+import React from 'react';
+
 export default function BookCard({ book }) {
   return (
     <div className="border rounded p-4 shadow hover:shadow-lg transition">
